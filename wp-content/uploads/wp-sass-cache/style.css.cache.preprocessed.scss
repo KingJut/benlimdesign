@@ -49,7 +49,7 @@ $separator_height_alt: 1px;
 // Menus
 $menu_items_padding_top: 0px;
 $menu_items_padding_bottom: 15px;
-$main_menu_type: Togglepx;
+$main_menu_type: Griddedpx;
 $main_menu_float_gutter = 40px;
 $main_menu_width: Widepx;
 $toggle_menu_margin_top: lb-1px;
@@ -68,8 +68,8 @@ $forms_margin_bottom: 30px;
 $forms_border_width: 5px;
 $link_decoration: None;
 // Typography
-$default_font: Helvetica, Arial, sans-serif;
-$small_font: Helvetica, Arial, sans-serif;
+$default_font: din_next_lt_promedium, Helvetica, Arial, sans-serif;
+$small_font: din_next_lt_promedium, Helvetica, Arial, sans-serif;
 $large_font: Helvetica, Arial, sans-serif;
 $huge_font: Helvetica, Arial, sans-serif;
 $default_font_size: 25px;
@@ -2254,11 +2254,8 @@ opacity: 1;
 /* Media Queries */
 
 @media all and (min-width: 1801px) {
-    #menu-icon {
-    display:block;
-  }
-  #menu-main-menu {
-    display: none;
+    #toggle-menu {
+    display: none !important;
   }
     #toggle-menu {
     #toggle-menu-inner {
@@ -2273,11 +2270,8 @@ opacity: 1;
 }
 
 @media all and (max-width: 1800px) and (min-width: 1401px) {
-    #menu-icon {
-    display:block;
-  }
-  #menu-main-menu {
-    display: none;
+    #toggle-menu {
+    display: none !important;
   }
     
   #toggle-menu {
@@ -2294,11 +2288,8 @@ opacity: 1;
 }
 
 @media all and (max-width: 1400px) and (min-width: 1201px) {
-    #menu-icon {
-    display:block;
-  }
-  #menu-main-menu {
-    display: none;
+    #toggle-menu {
+    display: none !important;
   }
     
   #toggle-menu {
@@ -2320,11 +2311,8 @@ opacity: 1;
     #menu-holder.float-right #menu-main-menu .menu-item, #menu-holder.float-right .page_item, #menu-holder.float-left #menu-main-menu .menu-item, #menu-holder.float-left .page_item  {
     width: auto;
   }
-    #menu-icon {
-    display:block;
-  }
-  #menu-main-menu {
-    display: none;
+    #toggle-menu {
+    display: none !important;
   }
     .empty {
     display: none;

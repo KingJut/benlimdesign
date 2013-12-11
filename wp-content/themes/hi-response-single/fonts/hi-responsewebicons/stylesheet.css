@@ -1,10 +1,1 @@
-@font-face {
-    font-family: 'hi-response_webicons';
-    src: url('hi-responsewebicons-regular-webfont.eot');
-    src: url('hi-responsewebicons-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('hi-responsewebicons-regular-webfont.woff') format('woff'),
-         url('hi-responsewebicons-regular-webfont.ttf') format('truetype'),
-         url('hi-responsewebicons-regular-webfont.svg#hi-response_webiconsregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face{font-family:hi-response_webicons;src:url(hi-responsewebicons-regular-webfont.eot);src:url(hi-responsewebicons-regular-webfont.eot?#iefix) format('embedded-opentype'),url(hi-responsewebicons-regular-webfont.woff) format('woff'),url(hi-responsewebicons-regular-webfont.ttf) format('truetype'),url(hi-responsewebicons-regular-webfont.svg#hi-response_webiconsregular) format('svg');font-weight:400;font-style:normal}@font-face{font-family:din_next_lt_promedium;src:url(linotype_-_din_next_lt_pro_medium-webfont.eot);src:url(linotype_-_din_next_lt_pro_medium-webfont.eot?#iefix) format('embedded-opentype'),url(linotype_-_din_next_lt_pro_medium-webfont.woff) format('woff'),url(linotype_-_din_next_lt_pro_medium-webfont.ttf) format('truetype'),url(linotype_-_din_next_lt_pro_medium-webfont.svg#din_next_lt_promedium) format('svg');font-weight:400;font-style:normal}
