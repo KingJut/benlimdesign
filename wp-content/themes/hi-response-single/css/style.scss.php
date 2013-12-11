@@ -3626,3 +3626,6 @@ padding: 10px !important;
 .p0 {
 padding: 0px !important;
 }
+.fa.fa-usd.fa-2x, .fa.fa-css3.fa-2x {
+    margin-left: 1em;
+}

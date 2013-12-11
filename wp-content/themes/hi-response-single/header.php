@@ -87,6 +87,7 @@ $home = get_bloginfo('home');
 
 <!-- Hi-Res Webfont Icons -->
 <link rel="stylesheet" href="<?php echo $stylesheet_dir; ?>/fonts/hi-responsewebicons/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" charset="utf-8" />
 <?php if (get_field('webfont_snippets', 'option')) {
   echo get_field('webfont_snippets', 'option');
 } ?>
